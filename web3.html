@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My To-Do List</title>
+<link rel="stylesheet" href="web3.css" />
+</head>
+
+<body>
+<div class="controls">
+    <select id="bgColor">
+    <option value="">Change Background Color</option>
+    <option value="#f8f8f8">Default</option>
+    <option value="#c2e9fb">Blue Sky</option>
+    <option value="#d4fc79">Green Light</option>
+    <option value="#ffb3b3">Soft Red</option>
+    </select>
+
+    <button id="increaseFont">Increase Font Size</button>
+    <button id="decreaseFont">Decrease Font Size</button>
+    <button id="toggleDark">Toggle Dark Mode</button>
+
+    <select id="fontStyle">
+    <option value="">Change Font Style</option>
+    <option value="Arial, sans-serif">Arial</option>
+    <option value="'Courier New', monospace">Courier New</option>
+    <option value="'Times New Roman', serif">Times New Roman</option>
+    <option value="'Comic Sans MS', cursive">Comic Sans</option>
+    </select>
+</div>
+
+<h1>My To-Do List</h1>
+
+<div class="input-area">
+    <input type="text" id="taskInput" placeholder="Add a new task..." />
+    <button id="addTask">Add</button>
+</div>
+
+<ul id="taskList"></ul>
+
+<script src="web3.js"></script>
+</body>
+</html>
