@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: white;
+  overflow: hidden;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#gameArea {
+  position: relative;
+  width: 90vw;
+  height: 70vh;
+  margin: 20px auto;
+  background-color: #333;
+  border: 3px solid #555;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: crimson;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#box:hover {
+  background-color: gold;
+}
+
+#score {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+}
+
+button:hover {
+  background-color: #218838;
+}
